@@ -1,0 +1,89 @@
+.container {
+  max-width: 1200px;
+  margin:0 auto;
+  padding: 0 40px;
+}
+
+body {
+  margin:0;
+  font-family:'Segoi UI', sans-serif;
+  background-color:#ffffff;
+  color:#000000;
+}
+
+.main-nav{
+  background-color:#ffffff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-content {
+  display:flex;
+  justify-content:space-between;
+  align-items:center
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: center;
+  gap: 20px;
+}
+
+.nav-links {
+  display:flex;
+  align-items:center;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration:none;
+  color:#000000;
+  font-weight:500;
+}
+
+.hero {
+  background-color:#ffffff;
+  padding: 60px 0;
+}
+
+.hero-content-wrapper {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 60px;
+  flex-wrap:wrap;
+}
+
+.hero-content {
+  flex:1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  color:#000000;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.hero-buttons {
+  margin-bottom:20px;
+}
+
+.hero-buttons a {
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.hero-image {
+  flex:1;
+  min-width:300px;
+  display:
+}
